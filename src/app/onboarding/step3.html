@@ -1,0 +1,47 @@
+<GridLayout rows="*,*">
+    <GridLayout row="0" rows="auto,auto,*" backgroundColor="#F5F4F6">
+      <GridLayout row="0" columns="*,20,*,20,*,20,*" class="p-20">
+        <progress col="0" value="100" maxValue="100" class="progress"></progress>
+        <progress col="2" value="100" maxValue="100" class="progress"></progress>
+        <progress col="4" value="10" maxValue="100" class="progress"></progress>
+        <progress col="6" value="0" maxValue="100" class="progress"></progress>
+      </GridLayout>
+      <StackLayout row="1" class="p-r-20">
+        <image
+          [src]="'~/images/close.png'"
+          loadMode="async"
+          width="18"
+          horizontalAlignment="right"
+        ></image>
+      </StackLayout>
+      <StackLayout row="2" class="p-b-32" verticalAlignment="bottom">
+        <image
+          [src]="'~/images/onboarding3.png'"
+          loadMode="async"
+          width="232"
+          horizontalAlignment="right"
+          verticalAlignment="bottom"
+        ></image>
+      </StackLayout>
+    </GridLayout>
+    <GridLayout row="1" rows="*,auto" class="p-b-32 p-l-20 p-r-20">
+      <StackLayout row="0" class="text-center" verticalAlignment="center">
+        <label text="Insights & Saving" class="title-h6"></label>
+        <label
+          text="Helping you better understand where
+          your money goes with insights
+          and round up savings."
+          textWrap="true"
+        ></label>
+      </StackLayout>
+      <StackLayout row="1" verticalAlignment="bottom">
+        <button
+          text="Existing Akbank AG Customer"
+          class="btn-primary m-b-16"
+          (tap)="onSwipe();"
+        ></button>
+        <button text="New Customer" class="btn-outline"></button>
+      </StackLayout>
+    </GridLayout>
+  </GridLayout>
+  

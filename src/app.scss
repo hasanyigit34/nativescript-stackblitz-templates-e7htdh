@@ -1,0 +1,29 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+@import '../src/sass/variables';
+@import '../src/sass/button.scss';
+@import '../src/sass/login.scss';
+
+.m-b-32 {
+  margin-bottom: 32;
+}
+.p-b-32 {
+  padding-bottom: 32;
+}
+.title-h6 {
+  font-weight: 500;
+  font-size: 18px;
+}
+.page-change-language {
+  text-align: center;
+  .column {
+    margin-top: 50;
+    Image {
+      width: 96;
+      margin-bottom: 8;
+    }
+  }
+}
+.progress {
+  color: $red-color;
+}
