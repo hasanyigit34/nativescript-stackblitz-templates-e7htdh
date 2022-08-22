@@ -1,0 +1,19 @@
+@import './variables';
+
+.btn-primary{
+    background-color: $btn-primary-background;
+    width:$btn-primary-width;
+    color:$btn-primary-color;
+    border-radius: $btn-primary-border-radius;
+    height: $btn-primary-height;
+}
+  
+.btn-outline{
+    background-color: $btn-outline-background;
+    border-width: $btn-outline-border-width;
+    border-color:$btn-outline-border-color;
+    width:$btn-outline-width;
+    color:$btn-outline-color;
+    border-radius: $btn-outline-border-radius;
+    height: $btn-outline-height;
+}

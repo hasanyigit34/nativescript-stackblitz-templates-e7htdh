@@ -1,0 +1,25 @@
+$primary-color:#DC0005;
+$red-color:#DC0005;
+
+
+//** btn  **//
+$btn-heigt:55;
+$btn-radius:28;
+$btn-width:100%;
+$btn-border-width:2;
+
+//** btn primary **//
+$btn-primary-color:white;
+$btn-primary-background:#DC0005;
+$btn-primary-border-radius:$btn-radius;
+$btn-primary-height:$btn-heigt;
+$btn-primary-width:$btn-width;
+
+//** btn outline **//
+$btn-outline-color:#DC0005;
+$btn-outline-background:white;
+$btn-outline-border-radius:$btn-radius;
+$btn-outline-height:$btn-heigt;
+$btn-outline-width:$btn-width;
+$btn-outline-border-width:$btn-border-width;
+$btn-outline-border-color:$btn-outline-color;
